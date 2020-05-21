@@ -1,9 +1,12 @@
 @charset "utf-8";
 
 *{	
-	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+/*font-family: 'Yanone Kaffeesatz', sans-serif;
 	
-font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+font-family: 'Oswald', sans-serif;
+font-weight: lighter;
 
 }
 
@@ -29,7 +32,7 @@ p{
    background-color: transparent;
    background: transparent;
    border-color: transparent;
-   position:fixed;
+   position:;
    margin-left:0;
    z-index:3;
    
@@ -60,18 +63,27 @@ li{
 	color: lavender;
 }
 
+
+#nave{
+
+font-size: 1.1em;
+
+}
+
 .cor{color:hsla(0,0%,99%,0.90)}
 
 .maior{font-size:2em;}
 
-.fundo {
-	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(wall22.jpg);
+.painel {
+	/*background-image: linear-gradient(rgba(0,0.2,0.8,0.6), rgba(0,0.7,0,0.9)), url(.jpg);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.835171568627451) 0%, rgba(121,9,81,1) 35%, rgba(0,212,255,1) 100%);
 	backgorund-position: center center ;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-attachment:fixed;
-	
-	height: 80vh;
+	background-attachment:;
+	height: 13vh;
 	width:100%;
 	display:flex;		
 }
@@ -232,7 +244,8 @@ font-size: 1.2em;
 	
 /*RODAPÉ*/
 #rodape {
-	background-color: black;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.835171568627451) 0%, rgba(121,9,81,1) 35%, rgba(0,212,255,1) 100%);
 	opacity: 0.93;
 	padding: .7em;
 	text-align: center;
@@ -549,19 +562,28 @@ color: black;
 
 #logo {
 	margin-top: -23px;
+
 }
 
+#direitos{
 
-
-
-
-
-#linha {
-	background-image: url(line.png);
-	width: 100%;
-	position: absolute;
-display: inline;}
-
-#mar {
-	
+	color: white;
 }
+
+#logo2{
+
+color: white;
+
+}
+
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+
+
+
+
+
+
+*/
