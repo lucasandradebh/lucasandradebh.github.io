@@ -95,7 +95,31 @@ background: linear-gradient(90deg, rgba(2,0,36,0.835171568627451) 0%, rgba(121,9
 }
 
 
+.painel2 {
+	/*background-image: linear-gradient(rgba(0,0.2,0.8,0.6), rgba(0,0.7,0,0.9)), url(.jpg);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.835171568627451) 0%, rgba(121,9,81,1) 35%, rgba(0,212,255,1) 100%);
+	backgorund-position: center center ;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:;
+	height: 100vh;
+	width:100%;
+	display:flex;		
+}
 
+.central{
+
+
+
+}
+
+.login{
+
+size: 50%;
+
+}
 
 /* SERVIÇOS*/
 
